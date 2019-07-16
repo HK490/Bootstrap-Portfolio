@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Helen Kim</title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-black {
+            background-color: aliceblue;
+        }
+
+        .rounded {
+            padding: 50px;
+            clear: none;
+            display: visible;
+            overflow: visible;
+            position: absolute;
+            z-index: 0;
+            margin-top: 200px;
+
+
+
+        }
+
+        .card {
+            position: relative;
+            z-index: 2;
+            float: right;
+            margin: 200px;
+            border-radius: 30px;
+
+        }
+
+        .shadow-lg {
+            height: 500px;
+            margin-top: 70px;
+            margin-right: 50px;
+            margin-left: 50px;
+            position: relative;
+            z-index: 1;
+            border-radius: 30px;
+        }
+
+        @media (max-width: 576px) {
+
+            body {
+                max-width: 576px;
+                margin: 0 auto;
+                width: 0 auto;
+                height: 0 auto;
+
+            }
+
+            .rounded {
+
+                margin: 0 auto;
+            }
+
+            .card {
+                position: relative;
+                z-index: 2;
+                float: none;
+                display: inline;
+                margin: 0 auto;
+                border-radius: 30px;
+                font-size: 0.8em;
+                text-align: center;
+
+
+            }
+
+            .shadow-lg {
+
+                position: relative;
+                z-index: 1;
+                border-radius: 30px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                max-width: 768px;
+                width: 0 auto;
+                height: 0 auto;
+                margin: 0 auto;
+            }
+
+            .card {
+                margin: 0 auto;
+                height: fit-content;
+                width: 768px;
+                overflow: visible;
+                position: relative;
+                z-index: 2;
+                float: none;
+                display: inline;
+                font-size: 0.8em;
+                text-align: center;
+            }
+
+            .rounded {
+                float: none;
+                margin: 0 auto;
+            }
+        }
+
+
+        @media (max-width: 1264px) {
+            body {
+                max-width: 1264px;
+                width: 0 auto;
+                height: 0 auto;
+                margin: 0 auto;
+            }
+
+            .rounded {
+                float: none;
+                margin: 0 auto;
+            }
+
+            .card {
+                margin: 0 auto;
+                position: relative;
+                float: none;
+                display: inline;
+                text-align: center;
+                font-size: 0.6em;
+
+            }
+        }
+
+        @media (max-width: 1864px) {
+            body {
+                max-width: 1864px;
+                width: 0 auto;
+                height: 0 auto;
+                margin: 0 auto;
+            }
+
+            .rounded {
+                float: none;
+                margin: 0 auto;
+            }
+
+            .card {
+                font-size: 0.9em;
+                display: inline;
+                max-width: 550px;
+                margin: 150px;
+
+            }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="card" style="width: 70rem;">
+        <div class="card-body">
+            <h1 class="card-title">About Me</h1>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi inventore
+                obcaecati quasi officia omnis corporis officiis nisi cupiditate illum architecto, explicabo
+                ducimus praesentium nulla porro qui quidem fugiat ipsam adipisci? Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Cumque earum quo magnam consectetur esse reprehenderit praesentium sed
+                magni amet sint, quisquam consequatur molestias temporibus molestiae sapiente dolore, omnis mollitia?
+                Odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ullam consectetur incidunt.
+                Molestiae quis ea alias natus earum! Incidunt exercitationem in, natus obcaecati quaerat quia eius
+                tenetur reiciendis quasi quos? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae fuga
+                eum quisquam dolore ea, doloremque repellat similique possimus iure in enim odit illum assumenda
+                perspiciatis officia cum, magni, inventore alias.</p>
+
+        </div>
+    </div>
+    <div class="shadow-lg p-3 mb-5 bg-black">
+        <img src="./portfolio_image.jpg" class="rounded float-left shadow-sm p-3 mb-5 bg-transparent"
+            alt="Portfolio_Image" height="500" width="500">
+    </div>
+
+
+</body>
+
+</html>
