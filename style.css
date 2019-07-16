@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-black {
+    background-color: aliceblue;
+}
+
+.shadow-lg {
+    height: 450px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.rounded {
+    padding: 50px;
+    clear: none;
+    display: visible;
+    overflow: visible;
+    position: absolute;
+    z-index: 0;
+    margin-top: 200px;
+}
+
+.card {
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin: 200px;
+    border-radius: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 2.7vw;
+    margin-bottom: 5px;
+}
+
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: 576px;
+        margin: 0 auto;
+        width: 0 auto;
+        height: 0 auto;
+    }
+    .rounded {
+        margin: 0 auto;
+    }
+    .card {
+        position: relative;
+        z-index: 2;
+        float: none;
+        display: inline;
+        margin: 0 auto;
+        border-radius: 30px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .shadow-lg {
+        position: relative;
+        z-index: 1;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+        width: 0 auto;
+        height: 0 auto;
+        margin: 0 auto;
+    }
+    .card {
+        margin: 0 auto;
+        height: fit-content;
+        width: 768px;
+        overflow: visible;
+        position: relative;
+        z-index: 2;
+        float: none;
+        display: inline;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .rounded {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1264px) {
+    body {
+        max-width: 1264px;
+        width: 0 auto;
+        height: 0 auto;
+        margin: 0 auto;
+    }
+    .rounded {
+        float: none;
+        margin: 0 auto;
+    }
+    .card {
+        margin: 0 auto;
+        position: relative;
+        float: none;
+        display: inline;
+        text-align: center;
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 1864px) {
+    body {
+        max-width: 1864px;
+        width: 0 auto;
+        height: 0 auto;
+        margin: 0 auto;
+    }
+    .rounded {
+        float: none;
+        margin: 130px 25px;
+    }
+    .card {
+        font-size: 0.8em;
+        display: inline;
+        max-width: 740px;
+        margin: 90px 100px;
+    }
+}
