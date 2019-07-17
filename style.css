@@ -46,82 +46,6 @@
     margin-bottom: 5px;
 }
 
-}
-
-@media (max-width: 576px) {
-    body {
-        max-width: 576px;
-        margin: 0 auto;
-        width: 0 auto;
-        height: 0 auto;
-    }
-    .rounded {
-        margin: 0 auto;
-    }
-    .card {
-        position: relative;
-        z-index: 2;
-        float: none;
-        display: inline;
-        margin: 0 auto;
-        border-radius: 30px;
-        font-size: 0.8em;
-        text-align: center;
-    }
-    .shadow-lg {
-        position: relative;
-        z-index: 1;
-        border-radius: 30px;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        max-width: 768px;
-        width: 0 auto;
-        height: 0 auto;
-        margin: 0 auto;
-    }
-    .card {
-        margin: 0 auto;
-        height: fit-content;
-        width: 768px;
-        overflow: visible;
-        position: relative;
-        z-index: 2;
-        float: none;
-        display: inline;
-        font-size: 0.8em;
-        text-align: center;
-    }
-    .rounded {
-        float: none;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 1264px) {
-    body {
-        max-width: 1264px;
-        width: 0 auto;
-        height: 0 auto;
-        margin: 0 auto;
-    }
-    .rounded {
-        float: none;
-        margin: 0 auto;
-    }
-    .card {
-        margin: 0 auto;
-        position: relative;
-        float: none;
-        display: inline;
-        text-align: center;
-        font-size: 0.6em;
-    }
-}
-
 @media (max-width: 1864px) {
     body {
         max-width: 1864px;
@@ -139,4 +63,79 @@
         max-width: 740px;
         margin: 90px 100px;
     }
+    .image {
+        Margin: 1vw;
+    }
+}
+
+@media (max-width: 1264px) {
+    body {
+        max-width: 1264px;
+    }
+    .rounded {
+        float: none;
+        margin: 0 auto;
+    }
+    .card-body {
+        font-size: 0.9em;
+        max-width: 300px;
+        height: 500px;
+        margin: 0;
+    }
+    .card {
+        max-width: 300px;
+        height: 435px;
+        margin-top: 15px;
+    }
+    .image {
+        Margin: 2.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+    .card-body,
+    .card {
+        font-size: 0.8em;
+        max-width: 400px;
+        height: 400px;
+        float: inline-start;
+        margin-top: 30px;
+        z-index: 1;
+    }
+    .shadow-lg {
+        z-index: 0;
+    }
+    .rounded {
+        opacity: 0.5;
+        height: 400px;
+        width: 350px;
+    }
+    .image {
+        Margin: 3vw;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: 576px;
+        margin: 0 auto;
+        width: 0 auto;
+        height: 0 auto;
+    }
+    .rounded {
+        display: none;
+    }
+    .shadow-lg {
+        margin:0;
+    }
+
+    .card {
+        text-align: center;
+    }
+
 }
