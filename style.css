@@ -72,9 +72,9 @@
     body {
         max-width: 1264px;
     }
-    .rounded {
-        height: 400px;
-        width: 350px;
+    .rounded { 
+        min-height: 400px;
+        min-width: 350px;
         float: none;
         margin: 0 auto;
     }
