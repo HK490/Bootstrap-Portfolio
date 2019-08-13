@@ -2,13 +2,22 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    position: fixed !important;
+    z-index: 3 !important;
+    width: 100%;
+    top: 0;
+    box-shadow: inset 7px 7px 10px 10px white;
+    box-shadow: 3px 3px 6px 6px white;
+}
+
 .bg-black {
     background-color: aliceblue;
 }
 
 .shadow-lg {
-    height: 450px;
-    margin-top: 10px;
+    height: 440px;
+    margin-top: 80px;
     margin-right: 50px;
     margin-left: 50px;
     position: relative;
@@ -24,120 +33,108 @@
     position: absolute;
     z-index: 0;
     margin-top: 200px;
+    float: none;
+    margin: 110px 30px;
+    height: 350px; 
+    width: 350px;
+
 }
 
 .card {
     position: relative;
     z-index: 2;
     float: right;
-    margin: 200px;
+    margin: 90px 100px;
     border-radius: 30px;
-}
-
-.container {
-    text-align: center;
+    font-size: 0.85em;
+    max-width: 700px;
+    margin-top: 35px;
 }
 
 .image {
-    height: 150px;
-    width: 150px;
     float: left;
-    margin: 2.7vw;
+    margin: 2vw;
     margin-bottom: 5px;
+    position: relative;
+    margin: 1vw;
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
 }
 
-@media (max-width: 1864px) {
-    body {
-        max-width: 1864px;
-        width: 0 auto;
-        height: 0 auto;
-        margin: 0 auto;
-    }
-    .rounded {
-        float: none;
-        margin: 130px 25px;
-    }
-    .card {
-        font-size: 0.8em;
-        display: inline;
-        max-width: 740px;
-        margin: 90px 100px;
-    }
-    .image {
-        Margin: 1vw;
-    }
-}
+
 
 @media (max-width: 1264px) {
     body {
-        max-width: 1264px;
-    }
-    .rounded { 
-        min-height: 400px;
-        min-width: 350px;
-        float: none;
-        margin: 0 auto;
+        max-width: 1240px;
     }
 
-    .card-body,
     .card {
         font-size: 0.85em;
-        max-width: 430px;
-        height: 400px;
-        float: inline-start;
-        margin-top: 30px;
-        
+        max-width: 700px;
+        margin: 90px 100px;
+        margin-top: 35px;
     }
-
     .image {
-        Margin: 2.5vw;
+        margin: 1vw;
+        height: 250px;
+        width: 250px;
+        margin-top: 100px;
+    }
+    .rounded {
+        margin: 110px 20px;
+        float: none;
+        height: 350px; 
+        width: 350px;
     }
 }
 
 @media (max-width: 768px) {
     body {
-        max-width: 768px;
+        max-width: 750px;
     }
-    .card-body,
     .card {
-        font-size: 0.8em;
-        max-width: 410px;
-        height: 400px;
-        float: inline-start;
-        margin-top: 30px;
+        font-size: 0.55em;
+        max-width: 250px;
+        height: 350px;
+        margin: 90px 80px;
+        margin-top:35px;
         z-index: 1;
+     
     }
     .shadow-lg {
         z-index: 0;
     }
     .rounded {
-        opacity: 0.5;
-        height: 400px;
-        width: 350px;
+        margin: 18px 0;
+        width: 330px;
+
     }
     .image {
-        Margin: 3vw;
-        height: 100px;
-        width: 100px;
+        margin: 2vw;
+        margin-left: 65px;
+        height: 200px;
+        width: 200px;
     }
 }
 
 @media (max-width: 576px) {
-    body {
-        max-width: 576px;
-        margin: 0 auto;
-        width: 0 auto;
-        height: 0 auto;
-    }
-    .rounded {
-        display: none;
-    }
-    .shadow-lg {
-        margin:0;
-    }
 
     .card {
-        text-align: center;
+        max-width: 200px;
+        font-size: 0.45em;
     }
 
+    .card-title {
+        font-size:4em;
+    }
+    .rounded {
+        opacity: 0.5;
+        width: 230px;
+        height:350px;
+
+    }
+    .image {
+        margin: 1.8vw;
+    }
 }
