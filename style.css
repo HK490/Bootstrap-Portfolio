@@ -53,12 +53,10 @@
 
 .image {
     float: left;
-    margin: 2vw;
-    margin-bottom: 5px;
     position: relative;
     margin: 1vw;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin-top: 100px;
 }
 
