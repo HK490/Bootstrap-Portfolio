@@ -26,29 +26,30 @@
 }
 
 .rounded {
-    padding: 50px;
+    /* padding: 50px;
     clear: none;
     display: visible;
-    overflow: visible;
-    position: absolute;
-    z-index: 0;
-    margin-top: 200px;
-    float: none;
-    margin: 110px 30px;
-    height: 350px; 
-    width: 350px;
+    overflow: visible; */
+    /* position: absolute;
+    z-index: 0; */
+    /* margin-top: 200px;
+    float: none; */
+    /* margin: 110px 30px; */
+    height: 45vh; 
+    width: 20vw;
 
 }
 
 .card {
     position: relative;
     z-index: 2;
-    float: right;
-    margin: 90px 100px;
+    /* float: right; */
+    /* margin: 90px 100px; */
+    margin: 0 auto;
     border-radius: 30px;
     font-size: 0.85em;
-    max-width: 700px;
-    margin-top: 35px;
+    max-width: 900px;
+    margin-top: 4vh;
 }
 
 .image {
