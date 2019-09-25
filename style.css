@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.aboutMe {
+    text-align: center;
+}
+
 .navbar {
     position: fixed !important;
     z-index: 3 !important;
@@ -16,13 +20,13 @@
 }
 
 .shadow-lg {
-    height: 440px;
+    height: 82vh;
     margin-top: 80px;
-    margin-right: 50px;
-    margin-left: 50px;
+    /* margin-right: 50px;
+    margin-left: 50px; */
     position: relative;
     z-index: 1;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 .rounded {
@@ -35,21 +39,21 @@
     /* margin-top: 200px;
     float: none; */
     /* margin: 110px 30px; */
-    height: 45vh; 
-    width: 20vw;
-
+    height: 25em;
+    width: 25em;
 }
 
 .card {
-    position: relative;
+    position: absolute;
     z-index: 2;
     /* float: right; */
     /* margin: 90px 100px; */
     margin: 0 auto;
     border-radius: 30px;
     font-size: 0.85em;
-    max-width: 900px;
-    margin-top: 4vh;
+    max-width: 1000px;
+    /* margin-top: 4vh; */
+    height: 100%;
 }
 
 .image {
@@ -61,13 +65,17 @@
     margin-top: 100px;
 }
 
+.slideImg {
+    width: 100%;
+    height: 78vh;
+    margin: 0 auto;
+    padding: 2%;
+}
 
-
-@media (max-width: 1264px) {
+ @media (max-width: 1264px) {
     body {
         max-width: 1240px;
     }
-
     .card {
         font-size: 0.85em;
         max-width: 700px;
@@ -83,7 +91,7 @@
     .rounded {
         margin: 110px 20px;
         float: none;
-        height: 350px; 
+        height: 350px;
         width: 350px;
     }
 }
@@ -97,9 +105,8 @@
         max-width: 250px;
         height: 350px;
         margin: 90px 80px;
-        margin-top:35px;
+        margin-top: 35px;
         z-index: 1;
-     
     }
     .shadow-lg {
         z-index: 0;
@@ -107,7 +114,6 @@
     .rounded {
         margin: 18px 0;
         width: 330px;
-
     }
     .image {
         margin: 2vw;
@@ -118,20 +124,17 @@
 }
 
 @media (max-width: 576px) {
-
     .card {
         max-width: 200px;
         font-size: 0.45em;
     }
-
     .card-title {
-        font-size:4em;
+        font-size: 4em;
     }
     .rounded {
         opacity: 0.5;
         width: 230px;
-        height:350px;
-
+        height: 350px;
     }
     .image {
         margin: 1.8vw;
