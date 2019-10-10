@@ -98,11 +98,6 @@
 @media (max-width: 768px) {
     .aboutMe {
         font-size: 1.3em;
-        /* max-width: 80%;
-        height: 90%;
-        margin: 90px 80px;
-        margin-top: 35px;
-        z-index: 1; */
     }
     #myName {
         font-size: 6em;
@@ -133,14 +128,23 @@
 
 @media (max-width: 414px) {
     .card {
-        font-size: 2em;
+        font-size: 1em;
         top: 5%;
     }
     #myName {
-        font-size: 1.8em;
+        font-size: 2.3em;
+        padding-top: 29%;
+        padding-bottom: 15%;
+    }
+    #myTitle {
+        font-size: 1em;
+    }
+    .aboutMe {
+        font-size: 0.5em;
     }
     .rounded {
-        display: none;
+        height: 10em;
+        width: 10em;
     }
     .image {
         width: 28vw;
