@@ -21,12 +21,19 @@
 
 .shadow-lg {
     height: 82vh;
-    margin-top: 80px;
+    margin-top: 8%;
     /* margin-right: 50px;
     margin-left: 50px; */
     position: relative;
     z-index: 1;
     /* border-radius: 30px; */
+}
+
+.project {
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 4%;
+    /* justify-content: center; */
 }
 
 .rounded {
@@ -46,23 +53,18 @@
 .card {
     position: absolute;
     z-index: 2;
-    /* float: right; */
-    /* margin: 90px 100px; */
     margin: 0 auto;
+    top: 18%;
     border-radius: 30px;
     font-size: 0.85em;
-    max-width: 1000px;
-    /* margin-top: 4vh; */
-    height: 100%;
+    max-width: 80%;
 }
 
 .image {
-    float: left;
     position: relative;
-    margin: 1vw;
-    height: 200px;
-    width: 200px;
-    margin-top: 100px;
+    width: 31vw;
+    height: 31vh;
+    padding: 7px;
 }
 
 .slideImg {
@@ -72,71 +74,68 @@
     padding: 2%;
 }
 
- @media (max-width: 1264px) {
-    body {
-        max-width: 1240px;
-    }
-    .card {
+@media (max-width: 1264px) {
+    /* .card {
         font-size: 0.85em;
-        max-width: 700px;
+        max-width: 80%;
         margin: 90px 100px;
         margin-top: 35px;
-    }
-    .image {
+    } */
+    /* .image {
         margin: 1vw;
         height: 250px;
         width: 250px;
         margin-top: 100px;
-    }
-    .rounded {
+    } */
+    /* .rounded {
         margin: 110px 20px;
         float: none;
         height: 350px;
         width: 350px;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
-    body {
-        max-width: 750px;
-    }
-    .card {
-        font-size: 0.55em;
-        max-width: 250px;
-        height: 350px;
+    .aboutMe {
+        font-size: 0.5em;
+        /* max-width: 80%;
+        height: 90%;
         margin: 90px 80px;
         margin-top: 35px;
-        z-index: 1;
+        z-index: 1; */
     }
     .shadow-lg {
-        z-index: 0;
+        margin-top: 15%;
     }
     .rounded {
-        margin: 18px 0;
-        width: 330px;
+        height: 18em;
+        width: 18em;
     }
-    .image {
+    /* .image {
         margin: 2vw;
         margin-left: 65px;
         height: 200px;
         width: 200px;
-    }
+    } */
 }
 
-@media (max-width: 576px) {
+@media (max-width: 414px) {
     .card {
-        max-width: 200px;
         font-size: 0.45em;
     }
     .card-title {
         font-size: 4em;
     }
-    .rounded {
+    /* .rounded {
         opacity: 0.5;
         width: 230px;
         height: 350px;
-    }
+    } */
     .image {
-        margin: 1.8vw;
+        width: 28vw;
+        height: 28vh;
+    }
+    .project {
+        margin-top: 17%;
     }
 }
