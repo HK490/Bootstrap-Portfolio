@@ -97,15 +97,27 @@
 
 @media (max-width: 768px) {
     .aboutMe {
-        font-size: 0.5em;
+        font-size: 1.3em;
         /* max-width: 80%;
         height: 90%;
         margin: 90px 80px;
         margin-top: 35px;
         z-index: 1; */
     }
+    #myName {
+        font-size: 6em;
+        padding-top: 20%;
+        padding-bottom: 5%;
+    }
+    #myTitle {
+        font-size: 2.3em;
+    }
+    .card {
+        top: 13%;
+        max-width: 100%;
+    }
     .shadow-lg {
-        margin-top: 15%;
+        margin-top: 20%;
     }
     .rounded {
         height: 18em;
@@ -121,16 +133,15 @@
 
 @media (max-width: 414px) {
     .card {
-        font-size: 0.45em;
+        font-size: 2em;
+        top: 5%;
     }
-    .card-title {
-        font-size: 4em;
+    #myName {
+        font-size: 1.8em;
     }
-    /* .rounded {
-        opacity: 0.5;
-        width: 230px;
-        height: 350px;
-    } */
+    .rounded {
+        display: none;
+    }
     .image {
         width: 28vw;
         height: 28vh;
