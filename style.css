@@ -2,26 +2,31 @@
     box-sizing: border-box;
 }
 
+/* body{
+    font-family: 'Roboto';
+} */
+
 .aboutMe {
     text-align: center;
 }
 
-.navbar {
+.nav {
     position: fixed !important;
     z-index: 3 !important;
-    width: 100%;
+    width: 100vw;
     top: 0;
-    box-shadow: inset 7px 7px 10px 10px white;
-    box-shadow: 3px 3px 6px 6px white;
+    /* box-shadow: inset 7px 7px 10px 10px white; */
+    /* box-shadow: 3px 3px 6px 6px white; */
+}
+
+.nav-link{
+    color: black;
 }
 
 .bg-black {
     background-color: aliceblue;
 }
 
-#slideShow {
-    margin-top: 5%;
-}
 
 .shadow-lg {
     position: relative;
@@ -50,10 +55,9 @@
 }
 
 .slideImg {
-    width: 100%;
-    height: 78vh;
-    margin: 0 auto;
-    padding: 2%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .title{
@@ -97,9 +101,9 @@
     .card {
         max-width: 100%;
     }
-    .shadow-lg {
+    /* .shadow-lg {
         margin-top: 20%;
-    }
+    } */
     .rounded {
         height: 18em;
         width: 18em;
