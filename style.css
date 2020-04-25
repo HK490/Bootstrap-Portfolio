@@ -116,13 +116,18 @@
 }
 
 @media (max-width: 375px) {
+    #first{
+        height: 100%;
+    }
     .card {
         font-size: 1.8em;
         top: 0;
     }
+    .card-text{
+        text-align: center;
+    }
     #myName {
         font-size: 1.5em;
-        padding-top: 35%;
     }
     #myTitle {
         font-size: 0.8em;
@@ -135,4 +140,5 @@
         height: 10em;
         width: 10em;
     }
+  
 }
