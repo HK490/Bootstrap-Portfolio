@@ -115,8 +115,8 @@
     }
 }
 
-@media (max-width: 375px) {
-    #first{
+@media (max-width: 450px) {
+    #first, #second{
         height: 100%;
     }
     .card {
@@ -139,6 +139,10 @@
     .rounded {
         height: 10em;
         width: 10em;
+    }
+    .aboutMeText{
+        position: relative;
+        float: left;
     }
   
 }
